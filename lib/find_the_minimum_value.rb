@@ -5,7 +5,7 @@ counter = 0
 while counter < array.length do
 
 if array[counter] == array.min
-array[counter]
+return array[counter]
 end
   
 counter += 1  
